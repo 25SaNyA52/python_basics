@@ -1,0 +1,6 @@
+print(5 > 4 and 5 > 3)
+print(5 > 4 and 5 < 3)
+print(5 < 4 and 5 > 3)
+print(5 < 4 and 5 < 3)
+print(5 > 4 and 5 < 3 and True or False and(True and True))
+print(5 > 4 and 5 > 3 and True or False)
