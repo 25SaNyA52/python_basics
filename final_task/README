@@ -1,0 +1,25 @@
+Final Task: Geometric Shapes Manager
+📋 Project Description
+You are going to create a console application in Python for managing geometric shapes. The program should support working with various types of shapes (circle, rectangle, triangle), calculate their area and perimeter, and provide an interactive user interface.
+
+🎯 Task Objectives
+Apply OOP principles: inheritance, encapsulation, polymorphism
+Work with exceptions: handling input errors and data validation
+Use Python modules: math for mathematical calculations
+Organize code into packages: creating a modular project structure
+Work with imports: understanding Python packages and modules
+Create a console menu: interactive user interaction
+Apply protected attributes: using the _ prefix for class attributes
+
+📁 Project Structure
+final_task/
+├── main.py                   # Main file with menu and entry point
+├── shapes/                   # Package with shape classes
+│   ├── __init__.py           # Initialization of shapes package
+│   ├── shape.py              # Base class Shape
+│   ├── circle.py             # Class Circle
+│   ├── rectangle.py          # Class Rectangle
+│   └── triangle.py           # Class Triangle
+└── utils/                    # Package with utilities
+    ├── __init__.py           # Initialization of utils package
+    └── helpers.py            # Helper functions
